@@ -41,22 +41,22 @@ Provisioned all VMs in VirtualBox with allocated resources. Ensured internal NAT
 
 Installed Windows Server 2019 and configured AD DS, DNS, and DHCP. Created users, groups, and GPOs.
 
-**5. Client Environment Configuration**
+**4. Client Environment Configuration**
 
 Set up Windows 11 Enterprise and Ubuntu Desktop clients to join the domain, mimicking business and dev endpoints.
 
-**7. Security Monitoring Infrastructure**
+**5. Security Monitoring Infrastructure**
 
 Deployed Security Onion and Wazuh for host and network intrusion detection. Configured agent-based logging and alerts.
 
-**9. Email Server Setup**
+**6. Email Server Setup**
 
 Deployed Ubuntu Server 22.04 with Postfix as an internal email relay and tested SMTP configurations.
 
-**11. Attack Simulation**
+**7. Attack Simulation**
 
 Used Kali Linux, Hydra, Evil-WinRM, and NetExec to simulate password attacks, remote shell access, and lateral movement.
 
-**12. Log Analysis and Detection**
+**8. Log Analysis and Detection**
 
 Analyzed logs in Wazuh and Security Onion for brute-force attempts, unauthorized logins, and suspicious traffic patterns.
